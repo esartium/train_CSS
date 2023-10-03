@@ -1,0 +1,181 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.firstclass {
+    color: deeppink;
+}
+
+.color_for_big {
+    color: darksalmon;
+}
+
+#ident {
+    color: hotpink;
+}
+
+div span {
+    color: darksalmon;
+}
+
+div i {
+    color: coral;
+}
+
+p em, p strong {
+    color: magenta;
+}
+
+.ssilka {
+    color: deeppink;
+    text-decoration: none;
+}
+
+.ssilka:hover {
+    color: darkviolet;
+    text-decoration: underline;
+    background-color: aquamarine;
+}
+
+.f {
+    color:violet;
+}
+
+.f:visited {
+    color: darkcyan;
+}
+
+.forma {
+    color: indianred;
+}
+
+.lab {
+    color: mediumpurple;
+    background-color: rgb(225, 238, 233);
+}
+
+.forma:focus {
+    color: burlywood;
+}
+
+p.nado {
+    background-color: rgb(176, 90, 108);
+    color: beige;
+}
+
+#eee::after {
+    content: 'текст после объекта через after';
+    color: rgb(105, 190, 163);
+}
+#eee {
+    color: rgb(0, 157, 209);
+}
+
+#eeee::after {
+    content: attr(title);
+    color: bisque;
+    background-color: coral;
+}
+#eeee {
+    color: beige;
+    background-color: lightcoral;
+}
+#eeee:hover {
+    color: crimson;
+}
+
+div.firstletter::first-letter {
+    color: rgb(230, 248, 247);
+}
+div.firstletter {
+    color: bisque;
+    background-color: mediumpurple;
+    height: 100px;
+    border: 2px solid rgb(106, 53, 159);
+    border-radius: 10px 30px;
+    text-align: center;
+}
+div.firstletter:hover {
+    background-color: midnightblue;
+}
+
+body {
+    background-image: url('/Users/oaoa/Desktop/конспектики веб/css_curse/firsttry/css/7047b702475924ba8f8044b5b5ca56ba.jpeg');
+    background-repeat: repeat-y;
+}
+
+.textstyles {
+    text-align: center;
+    background-color: rgb(189, 105, 148);
+    color: lemonchiffon;
+    font-size: 20px;
+}
+
+.rrrr {
+    background-color: rgb(255, 222, 160);
+}
+
+.textstyles {
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: alias;
+}
+
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+
+#block {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: rgb(167, 207, 207);
+    height: 300px;
+    width: 550px;
+    border: 5px solid #b958c0;
+    border-bottom: 20px dotted #fffa99;
+    border-top-color: mediumpurple;
+    margin-left: 50px ;
+    padding-top: 200px;
+}
+
+.new {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: bisque;
+    opacity: 0.6;
+}
+
+#first {
+    float: left
+}
+
+#second {
+    float: left
+}
+
+#list {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 15px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    border: 3px solid rgb(228, 228, 53);
+    height: 50px;
+    
+}
+
+#list li {
+    display: inline;
+    background-color: rgb(90, 223, 223);
+    border: 3px solid rgb(228, 228, 53);
+}
